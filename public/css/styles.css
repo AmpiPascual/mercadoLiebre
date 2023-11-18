@@ -54,11 +54,47 @@ body {
 
 }
 
+.create-form {
+    padding: 20px 15px;
 
-@media (min-width: 768px) {
+}
+
+.control-formulario {
+    margin-top: 15px;
+}
+
+.control-formulario label {
+    margin-bottom: 15px;
+    font-style: italic;
+    display: block;
+}
+
+.control {
+    width: 100%;
+    padding: 8px;
+}
+
+.boton-formulario {
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+@media (min-width: 361px) {
+    .main-header-top-bar {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width: 769px) {
     .main-header-top-bar {
         display: flex;
         justify-content: space-between;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .copy-header {
         max-width: 350px;
@@ -70,6 +106,7 @@ body {
     .main-navbar {
         display: flex;
         justify-content: space-between;
+       
     } 
     .main-navbar ul {
         display: flex;
@@ -105,3 +142,33 @@ body {
     }
 }
 
+.footer {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    letter-spacing: normal;
+    line-height: 13px;
+    
+}
+.footer-descripcion {
+    font-size: small;
+}
+.footer-titulo {
+    font-size: medium;
+}
+
+main {
+    text-align: center;
+    width: 90%;
+}
+article {
+    margin: 10px;
+    padding: 15px;
+}
+.article-ofertas {
+    border-top: solid 1px #ebebeb;
+    background-color: #ebebeb;
+}
+.descuento {
+    color: #38f55e;
+}
