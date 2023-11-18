@@ -160,6 +160,7 @@ body {
 main {
     text-align: center;
     width: 90%;
+    display: block;
 }
 article {
     margin: 10px;
@@ -168,7 +169,14 @@ article {
 .article-ofertas {
     border-top: solid 1px #ebebeb;
     background-color: #ebebeb;
+    
+   
 }
 .descuento {
     color: #38f55e;
+}
+.logo-envio {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }

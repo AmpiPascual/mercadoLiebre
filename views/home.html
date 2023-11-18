@@ -41,8 +41,8 @@
 
             </ul>
             <ul class="right-navbar">
-                <li><a href="#">Creá tu cuenta <i class="fa-solid fa-credit-card"></i></a></li>
-                <li><a href="#">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="/register">Creá tu cuenta <i class="fa-solid fa-credit-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
                 <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
 
             </ul>
@@ -90,30 +90,31 @@
         <h2><b> Sección de Ofertas</b></h2>
         <article class="article-ofertas" >
             <img width="280px" alt="Cafetera Moulinex" src="/images/img-cafetera-moulinex.jpg">
-            <i class="fa-solid fa-truck" style="color: #38f55e;"></i>
+            <i class="fa-solid fa-truck" style="color: #38f55e;" class="logo-envio"></i>
             <p>$6.770</p>
             <p class="descuento">40% OFF</p>
             <h3><b>Cafetera Moulinex</b></h3>
          </article>
          <article class="article-ofertas" >
             <img width="280px" alt="MacBook" src="/images/img-macbook-pro-2019.jpg">
-            <i class="fa-solid fa-truck" style="color: #38f55e;"></i>
+            <i class="fa-solid fa-truck" style="color: #38f55e;" class="logo-envio"></i>
             <p>$230.000</p>
             <p class="descuento">20% OFF</p>
             <h3><b>MacBook Pro 2019</b></h3>
          </article>
          <article class="article-ofertas">
             <img width="280px" alt="Samsung Galaxy" src="/images/img-samsung-galaxy-s10.jpg">
-            <i class="fa-solid fa-truck" style="color: #38f55e;"></i>
+            <i class="fa-solid fa-truck" style="color: #38f55e;" class="logo-envio"></i>
             <p>$70.500</p>
             <p class="descuento">10% OFF</p>
             <h3><b>Samsung Galaxy S10</b></h3>
          </article>
          <article class="article-ofertas">
             <img width="280px" alt="SmartTv" src="/images/img-tv-samsung-smart.jpg">
-            <i class="fa-solid fa-truck" style="color: #38f55e;"></i>
+            <i class="fa-solid fa-truck" style="color: #38f55e;" class="logo-envio"></i>
             <p>$23.200</p>
             <p class="descuento">5% OFF</p>
+            
             <h3><b>SmartTv Samsung 43"</b></h3>
          </article>
 
@@ -144,51 +145,4 @@
     </section>
 </footer> 
 </body>
-
-
-<!--Formulario-->
-
-<form action="/crear-producto" method="POST" class="create-form">
-    <div class="control-formulario">
-        <label>Nombre del producto</label>
-        <input type="text" name="Nombre" class="control">
-    </div>
-    <div class="control-formulario">
-        <label>Precio</label>
-        <input type="text" name="precio" placeholder="123.56" class="control">
-    </div>
-    <div class="control-formulario">
-        <label>categoria</label>
-        <select name="categoria" class="control">
-            <option value="hogar">Hogar</option>
-            <option value="electro">Electro</option>
-            <option value="indumentaria">Indumentaria</option>
-        </select>
-    </div>
-    <div class="control-formulario">
-        <label>ciudad</label>
-        <select name="ciudad" class="control">
-            <option value="baires">Bs As</option>
-            <option value="rosario">Rosario</option>
-            <option value="mdz">Mendoza</option>
-        </select>
-    </div>
-    <div class="control-formulario">
-        <label for="">Descripcion:</label>
-        <textarea name="descripcion" class="control"></textarea>
-    </div>
-    <div class="control-formulario">
-        <label>Esta en oferta</label>
-        <input type="radio" name="enOferta">
-    </div>
-    <button type="reset" class="boton-formulario">Borrar</button>
-    <button type="submit" class="boton-formulario">Guardar</button>
-
-
-</form>
-
-
-
-
-
 </html>
